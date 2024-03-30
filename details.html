@@ -23,7 +23,7 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 align-content-center ">
-                <a class="navbar-brand" href="#">Back Office</a>
+                <a class="navbar-brand" href="#">E-commerce</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -32,36 +32,30 @@
                     <li class="nav-item active">
                       <a class="nav-link" href="/index.html">Home</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/item-management.html">Add Item</a>
-                    </li>
                   </ul>
                 </div>
               </nav>
         </header>
-        <main class="container mt-3">
-            <h1>Backoffice</h1>
-            <p>Ecco i prodotti presenti nel tuo Back Office:</p>
-            <div class="item-container">
-                <div class="row">
-                    <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Description</th>
-                            <th scope="col">Brand</th>
-                            <th scope="col">Image</th>
-                            <th scope="col">Price</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-
-                        </tbody>
-                      </table>
+        <main class="container mt-3 details-main">
+            <h1>Ecco i dettagli del prodotto:</h1>
+            <div class="container-fluid ">
+                <div class="row detail-container mt-5 align-items-center gap-5">
+                    
                 </div>
             </div>
         </main>
+        <div class="container">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; 2024 Nessazon, Inc</p>
+          </footer>
+        </div>
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -75,6 +69,9 @@
             crossorigin="anonymous"
         ></script>
 
-        <script src="./js/backoffice.js"></script>
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/f276daecd9.js" crossorigin="anonymous"></script>
+
+        <script src="./js/details.js"></script>
     </body>
 </html>
