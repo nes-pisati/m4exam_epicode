@@ -1,0 +1,32 @@
+.back-office {
+    font-size: 0.7em;
+    background-color: gray;
+    border: none;
+    border-radius: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+
+/*Item Management Style*/
+
+.item-form {
+    background-color: rgba(128, 128, 128, 0.177);
+    border-radius: 50px;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.form-button {
+    border: none;
+    border-radius: 50px;
+    padding: 1% 2%;
+    width: fit-content;
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: rgb(199, 199, 199);
+    color: white;
+}
+
+.form-button:hover {
+    background-color: green;
+}
