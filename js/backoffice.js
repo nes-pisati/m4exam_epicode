@@ -32,7 +32,7 @@ function displayItems(items) {
             <td>${entry.price} €</td>
             <td>
                 <a href="/item-management.html?id=${entry._id}" class="btn btn-primary">edit</a>
-                <button class="btn btn-danger">delete</button>
+                <button class="btn btn-danger" onclick = "deleteItem()">delete</button>
             </td>
   </tr>
     `).join("")
@@ -40,5 +40,9 @@ function displayItems(items) {
 
 window.onload = async() => {
     displayItems(await getItems())
+}
+
+async function deleteItem() {
+    
 }
 
