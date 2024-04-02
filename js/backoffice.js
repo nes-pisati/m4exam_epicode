@@ -31,7 +31,7 @@ function displayItems(items) {
             <td><a href="${entry.imageUrl}" target="_blank">Visualizza</a></td>
             <td>${entry.price} €</td>
             <td>
-                <a href="/item-management.html" class="btn btn-primary">edit</a>
+                <a href="/item-management.html?id=${entry._id}" class="btn btn-primary">edit</a>
                 <button class="btn btn-danger">delete</button>
             </td>
   </tr>
@@ -41,3 +41,4 @@ function displayItems(items) {
 window.onload = async() => {
     displayItems(await getItems())
 }
+
